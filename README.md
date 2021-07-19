@@ -2,9 +2,12 @@
 
 A curriculum vitae maintained in plain text and rendered to HTML and PDF using CSS.
 
-This is a fork of the markdown-cv repo with github actions to deploy your CV using github pages. For more details, see the [original project page](http://elipapa.github.io/markdown-cv), or the blog post on [switching to markdown for CV](http://elipapa.github.io/blog/why-i-switched-to-markdown-for-my-cv.html).
+> This is a fork of the markdown-cv repo with additional automation with github actions to deploy your CV using github pages. For more details, see the [original project page](http://elipapa.github.io/markdown-cv), or the blog post on [switching to markdown for CV](http://elipapa.github.io/blog/why-i-switched-to-markdown-for-my-cv.html).
 
-## Setup Repo Permissions (for Github Actions)
+## Step 1: Clone this Repo using [Template](https://github.com/jobindj/markdown-cv/generate)
+
+
+## Step 2: Setup Repo Permissions (for Github Actions)
 
 [Source: [GitHub Actions | Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/#providing-permissions)]
 
@@ -21,19 +24,19 @@ The action needs permissions to push to your `gh-pages` branch. So you need to c
 
 ***
 
-## Customization
+## Step 3: Make it your CV
 
-Simply [fork the markdown-cv repo](https://github.com/elipapa/markdown-cv)
+Edit the `index.md` file 
 
-![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
-
-and edit the `index.md` file [directly in Github](https://help.github.com/articles/editing-files-in-your-repository/)
+- Either [directly in Github](https://help.github.com/articles/editing-files-in-your-repository/)
 
 ![](https://help.github.com/assets/images/help/repository/edit-file-edit-button.png)
 
 adding your skills, jobs and education.
 
 ![](https://help.github.com/assets/images/help/repository/edit-readme-light.png)
+
+- Or clone the repo!
 
 ## Distribution
 
@@ -69,11 +72,13 @@ To change the default style, simply change the variable in the
 
 Any other styling is possible. More CSS style contributions and forks are welcome!
 
-### Author
+### Repo Authors
 
-Eliseo Papa ([Twitter](http://twitter.com/elipapa)/[Github](http://github.com/elipapa)/[Website](https://elipapa.github.io)).
+- Eliseo Papa ([Twitter](http://twitter.com/elipapa)/[Github](http://github.com/elipapa)/[Website](https://elipapa.github.io)).
 
 ![Eliseo Papa](https://s.gravatar.com/avatar/eae1f0c01afda2bed9ce9cb88f6873f6?s=100)
+
+- Jobin John (added Github Actions)
 
 ### License
 
