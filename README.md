@@ -2,7 +2,22 @@
 
 A curriculum vitae maintained in plain text and rendered to HTML and PDF using CSS.
 
-For more details, see the [project page](http://elipapa.github.io/markdown-cv), or the blog post on [why I switched to markdown for my CV](http://elipapa.github.io/blog/why-i-switched-to-markdown-for-my-cv.html).
+This is a fork of the markdown-cv repo with github actions to deploy your CV using github pages. For more details, see the [original project page](http://elipapa.github.io/markdown-cv), or the blog post on [switching to markdown for CV](http://elipapa.github.io/blog/why-i-switched-to-markdown-for-my-cv.html).
+
+## Setup Repo Permissions (for Github Actions)
+
+[Source: [GitHub Actions | Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/#providing-permissions)]
+
+The action needs permissions to push to your `gh-pages` branch. So you need to create a GitHub **authentication token** on your GitHub profile, then set it as an environment variable in your build using _Secrets_:
+
+1.  On your GitHub profile, under **Developer Settings**, go to the [Personal Access Tokens](https://github.com/settings/tokens) section.
+2.  **Create** a token. Give it a name like “GitHub Actions” and ensure it has permissions to `public_repos` (or the entire `repo` scope for private repository) — necessary for the action to commit to the `gh-pages` branch.
+3.  **Copy** the token value.
+4.  Go to your repository’s **Settings** and then the **Secrets** tab.
+5.  **Create** a token named `ACTIONS_TOKEN` (_important_). Give it a value using the value copied above.
+
+
+
 
 ***
 
