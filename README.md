@@ -1,6 +1,8 @@
 # markdown-cv
 
-A curriculum vitae maintained in plain text and rendered to HTML and PDF using CSS. See the index.md file build as resume page [here](https://jobindj.github.io/markdown-cv/)
+A curriculum vitae maintained in plain text and rendered to HTML and PDF using CSS. 
+
+See the `index.md` file build as resume page [here](https://jobindj.github.io/markdown-cv/)
 
 > This is a fork of the markdown-cv repo with additional automation with github actions to deploy your CV using github pages. For more details, see the [original project page](http://elipapa.github.io/markdown-cv), or the blog post on [switching to markdown for CV](http://elipapa.github.io/blog/why-i-switched-to-markdown-for-my-cv.html).
 
